@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = FastAPI()
 
-MONGO_URI = "mongodb+srv://esp32:esp32pass@cluster0.vzr9qw6.mongodb.net/iot?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://esp32:esp32pass@cluster0.vzr9qw6.mongodb.net/iot=Cluster0"
 
 client = MongoClient(MONGO_URI)
 db = client.iot
